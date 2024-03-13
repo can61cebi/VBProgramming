@@ -1,2 +1,2 @@
 #Görsel Tabanlı Programlama
-Görsel Tabanlı Programlama dersi notlarını içerir.
+Görsel Tabanlı Programlama dersinin notlarını içerir.
