@@ -37,9 +37,9 @@ public class FigurePanel extends JPanel{
             case RECTANGLE:
                 g.setColor(Color.BLUE);
                 if (filled)
-                    g.fillRect((int)(0.1*width),(int)(0.1)*(height),(int)(0.8*width),(int)(0.8*height));
+                    g.fillRect((int)(0.1*width),(int)(0.1*height),(int)(0.8*width),(int)(0.8*height));
                 else
-                    g.drawRect((int)(0.1*width),(int)(0.1)*(height),(int)(0.8*width),(int)(0.8*height));
+                    g.drawRect((int)(0.1*width),(int)(0.1*height),(int)(0.8*width),(int)(0.8*height));
                 break;
             case ROUND_RECTANGLE:
                 g.setColor(Color.RED);
@@ -51,9 +51,9 @@ public class FigurePanel extends JPanel{
             case OVAL:
                 g.setColor(Color.BLACK);
                 if (filled)
-                    g.fillRect((int)(0.1*width),(int)(0.1)*(height),(int)(0.8*width),(int)(0.8*height));
+                    g.fillRect((int)(0.1*width),(int)(0.1*height),(int)(0.8*width),(int)(0.8*height));
                 else
-                    g.drawRect((int)(0.1*width),(int)(0.1)*(height),(int)(0.8*width),(int)(0.8*height));
+                    g.drawRect((int)(0.1*width),(int)(0.1*height),(int)(0.8*width),(int)(0.8*height));
         }
     }
 
