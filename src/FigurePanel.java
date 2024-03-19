@@ -78,4 +78,6 @@ public class FigurePanel extends JPanel{
     public Dimension getPrefferedSize() {
         return new Dimension(80,80);
     }
+
+    //Hafta 5 notları bitti.
 }
