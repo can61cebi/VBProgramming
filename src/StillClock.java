@@ -46,7 +46,7 @@ public class StillClock extends JPanel {
         g.drawOval(xCenter-clockRadius, yCenter-clockRadius, 2*clockRadius, 2*clockRadius);
         g.drawString("12", xCenter-5, yCenter-clockRadius+12);
         g.drawString("9", xCenter-clockRadius+3, yCenter+5);
-        g.drawString("3", xCenter-clockRadius-10, yCenter+3);
+        g.drawString("3", xCenter+clockRadius-10, yCenter+3);
         g.drawString("6", xCenter-3, yCenter+clockRadius-3);
 
         //saniye cizimi
