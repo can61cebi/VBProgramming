@@ -1,21 +1,18 @@
 import java.util.Scanner;
+public class string {
 
-public class palindromeIgnoreNonAlphanumeric {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter a String: ");
-        String s = input.nextLine();
+        Scanner input = new Scanner (System.in);
+        System.out.print("Enter a String");
+        String s =input.nextLine();
 
-        System.out.printIn("Non alphanumeric: " + isPalindrome(s));
+        System.out.println("Non alphanumeric :"+isPalindrome(s));
     }
-
-    public static boolean isPalindrome(String s){
-        String filtered = filter(s);
-        String reversed = reverse(filtered);
-
-        return filtered.equalsIgnoreCase(reversed);
+    public static boolean isPalindrome(String s) {
+        String s1 = filter(s);
+        String s2 = reverse(s1);
+        return s2.equals(s1);
     }
-
     public static String filter (String s){
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
@@ -26,8 +23,10 @@ public class palindromeIgnoreNonAlphanumeric {
         return stringBuilder.toString();
     }
 
-    public static String reverse(String s){
-        StringBuilder stringBuilder = new StringBuilder();
+
+
+    public static String reverse(String s) {
+        StringBuilder stringbuilder=new StringBuilder(s);
         stringbuilder.reverse();
         return stringbuilder.toString();
     }
